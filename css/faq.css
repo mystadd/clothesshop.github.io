@@ -1,0 +1,177 @@
+/*HEADER*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: black;
+}
+
+.header__section {
+	position: relative;
+    height: 60px;
+    background: black;
+    margin-left: 400px;
+    width: 1050px;
+    box-shadow: 0 7px 7px -7px rgba(0, 0, 0, .6);
+}
+
+/*Меню сайта*/
+.top-menu {
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.top-menu ul li a {
+    display: block;
+    padding-right: 40px;
+    text-decoration: none;
+    font-family: "Exo2-Medium", sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 12px;
+    cursor: pointer;
+    outline: none;
+}
+
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #FFD700;
+    opacity: 0.9;
+}
+
+.cart-section a {
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    float: right;
+}
+
+.cart-section img {
+    position: absolute;
+    width: 45px;
+    margin-top: 3px;
+}
+
+.mini-cart {
+    position: absolute;
+    color: white;
+    font-family: "Exo2-Medium", sans-serif;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+/*CONTENT*/
+body {
+    background-color: white;
+}
+
+#block-body {
+    width: 1200px;
+    margin: 0px auto;
+    height: auto;
+}
+
+/*Заголовок*/
+.faq {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Exo2-Medium", sans-serif;
+    background: black;
+    color: #FFD700;
+    width: 170px;
+    margin: 100px auto 20px;
+}
+
+.content_faq {
+    margin: 80px 80px 120px;
+}
+
+.content_faq h2 {
+    font-size: 24px;
+    font-family: "Exo2-Medium", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+.content_faq h3 {
+    font-size: 28px;
+    font-family: "Exo2-Medium", sans-serif;
+    padding-top: 40px;
+}
+
+.content_faq span {
+    font-size: 16px;
+    font-family: "Exo2-Medium", sans-serif;
+    color:  #363636;
+}
+
+.content_faq p {
+    font-size: 16px;
+    font-family: "Exo2-Medium", sans-serif;
+    color:  #363636;
+    padding-top: 2px;
+}
+
+.content_faq ul li {
+    font-size: 16px;
+    font-family: "Exo2-Medium", sans-serif;
+    margin-left: 30px;
+    color: #363636;
+    padding-top: 2px;
+}
+
+.content_faq a {
+    font-size: 16px;
+    font-family: "Exo2-Medium", sans-serif;
+    padding-left: 5px;
+    color:  #363636;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #FFD700;
+}
+
+.special {
+    height: 90px;
+    background: #FFD700;
+    text-align: center;
+}
+
+#social_button img {
+    width: 27px;
+    padding-top: 20px; 
+}
+
+#social_button a {
+    text-decoration: none;
+}
+
+.footer_copyright {
+    font-family: "Exo2-Medium", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 7px;
+}
+
